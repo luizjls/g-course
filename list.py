@@ -11,13 +11,23 @@ else:
 '''
 
 list1 = []
-list2 = list(range(5,15))
+list2 = list(range(5,20))
 list3 = ['P','e','r','s','o','n','a','l','D','a','d']
 list4 = list('Personal Dad')
-list5 = ['99','55','48', '31', '95', '4', '70', '47', '59', '37']
+list7 = ['99','55','48', '31', '95', '4', '70', '47', '59', '37']
 
 
 
+
+list5 = ['99','55','48']
+list6 = list5
+
+list5.pop()
+list6.pop()
+list5.pop()
+
+print(list5)
+print(list6)
 
 
 
