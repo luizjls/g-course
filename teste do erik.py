@@ -51,12 +51,37 @@ while product != 'exit':
 for product in car:
     print(product)
 
-'''
-
-
-
 
 #            0      1       2        3        4
 colors = ['blue', 'red', 'pink', 'purple', 'green']
 
-print(colors[-4])
+#print(colors[-4])
+#print(list(enumerate(colors)))
+
+for a, b in enumerate(colors):
+    #print('The indice is: ' + str(a) + ' and color is: ' + str(b))
+    print(type(a))
+    print(type(b))
+    print(f'The indice is: {a}  and color is: {b}')
+
+
+    listA = ['a']
+listA.append('123')
+
+count = 0
+while count < 10:
+   listA.append(count)
+   count = count + 2
+
+print(listA)
+
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 83, 84, 84, 93]
+print(numbers.index(84, 10, 11))
+
+'''
+
+# list (start:end:step)
+# list (start:end)
+
+numbers = [1, 2, 3, 4, 5, 6, 7]
+print(numbers[:4:-1])
