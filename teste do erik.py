@@ -38,8 +38,6 @@ for element in list3:
 
 print(soma)
 
-'''
-
 
 car = []
 product = ''
@@ -53,4 +51,12 @@ while product != 'exit':
 for product in car:
     print(product)
 
+'''
 
+
+
+
+#            0      1       2        3        4
+colors = ['blue', 'red', 'pink', 'purple', 'green']
+
+print(colors[-4])
