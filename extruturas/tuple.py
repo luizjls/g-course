@@ -18,14 +18,16 @@ print(max(tp))
 print(min(tp))
 print(len(tp))
 
-'''
-
 meses = ('JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ')
 
 i = 0
 while i < len(meses):
     print(meses[i])
     i = i + 1
+
+'''
+
+
 
 
 
